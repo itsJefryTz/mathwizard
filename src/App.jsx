@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import ChatbotHome from './pages/chatbot/ChatbotHome';
+import ChatbotPage from './pages/chatbot/ChatbotPage';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
         <Routes>
           <Route path='*' element={<Navigate to="/chatbot" />} />
           <Route path="/" element={<Navigate to="/chatbot" />} />
-          <Route path="/chatbot" element={<ChatbotHome />} />
+          <Route path="/chatbot" element={<ChatbotPage />} />
         </Routes>
     </BrowserRouter>
     </>
