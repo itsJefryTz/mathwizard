@@ -3,7 +3,7 @@ export const chatWithPuter = async (question) => {
     const resp = await window.puter.ai.chat(question, { model: 'claude', stream: true });
     let fullResponse = '';
     for await (const part of resp) {
-      fullResponse += part?.text?.replaceAll('\n', '<br>');
+      fullResponse += part?.text;
     }
     return fullResponse;
   } catch (error) {
