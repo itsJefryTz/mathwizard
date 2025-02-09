@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import ChatbotPage from '../pages/chatbot/ChatbotPage';
+import ChatbotPage from './pages/chatbot/ChatbotPage';
 
 function App() {
   return (
