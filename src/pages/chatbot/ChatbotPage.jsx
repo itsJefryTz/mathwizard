@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import { useState, useRef } from 'react';
 import { chatWithPuter } from '../../utils/chatbot/puterUtils';
 import { Toaster, toast } from 'react-hot-toast';
 // import 'tailwindcss/tailwind.css'; // Importar Tailwind CSS
